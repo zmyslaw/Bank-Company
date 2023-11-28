@@ -14,7 +14,7 @@ import java.io.Serializable;
  public class Person implements Serializable {
     @Id
     @GeneratedValue
-    private int id;
+    private Long id;
     private String name;
     private String surname;
 
